@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Zen+Antique&display=swap');
+body{
+  margin: 0;
+  width: 100%;
+  font-family: 'Londrina Solid', cursive;
+  background: #7E7E7E;
+  color: black;
+  place-items: center center;
+}
+/*index design start*/
+.hero {
+  display: grid;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("./bg.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  place-items: start center;
+  font-size: 40px;
+}
+/*index design end*/
+
+.intro-hero {
+  display: grid;
+  place-items: center center;
+  font-size: 25px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #3f37c9;
+}
+
+ a:hover {
+  color: #7209b7;
+}
